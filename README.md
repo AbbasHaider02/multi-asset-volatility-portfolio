@@ -3,7 +3,7 @@
 **Closed-Source Python Tool for Volatility Regime Detection**  
 *Z-Score Aggregation + Delta Metrics Across Equities, Crypto, & Commodities. Built for Quant, Risk, Data, and Finance Roles.*
 
-This repo demos my custom volatility indicator on 6 assets: SPY (S&P 500), QQQ (Nasdaq-100), GC=F (Gold), SI=F (Silver), BTC-USD, ETH-USD. It fuses std dev, ATR, Bollinger width, and more into normalized Z-scores with percentile alerts—flagging "crisis-level" spikes (e.g., 98.9% thresholds) and momentum for trading signals.
+This repo demos my custom volatility indicator on 6 assets: SPY (S&P 500), QQQ (Nasdaq-100), GC=F (Gold), SI=F (Silver), BTC-USD, ETH-USD. Integrates multiple volatility metrics into normalized Z-scores with percentile-based alerts, identifying “crisis-level” spikes (e.g., 98.9th percentile) and momentum inflections for signal generation.
 
 ## Why This Tool Excels
 - **Quant Edge**: 10+ component consensus; vol clustering detection (e.g., crypto crashes).
